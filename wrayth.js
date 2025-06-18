@@ -91,7 +91,7 @@ function buildSite() {
   const finalCSS = build.purgeUnusedCSS ? purgeCSS(css, usedClasses) : css;
   fs.writeFileSync(path.join(output, "theme.css"), finalCSS);
 
-  console.log("✅ Wrayth build complete.");
+  console.log("[SUCCESS] Wrayth build complete.");
 }
 
 buildSite();
