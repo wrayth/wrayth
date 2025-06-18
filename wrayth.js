@@ -1,7 +1,7 @@
-import fs from "fs";
-import path from "path";
-import { minify } from "html-minifier";
-import config from "./wrayth.config.js";
+const fs = require("fs");
+const path = require("path");
+const { minify } = require("html-minifier");
+const config = require("./wrayth.config.js");
 
 const { input, output, components, build } = config;
 
