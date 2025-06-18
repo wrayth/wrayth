@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wrayth Home</title>
+  <link rel="stylesheet" href="../theme.css">
+</head>
+<body>
+  <h1 class="title">Welcome to Wrayth</h1>
+
+  <raui-component src="card.html">
+    <template slot="title">Components & State</template>
+    <template slot="content">Now with animation and logic!</template>
+  </raui-component>
+
+  <p raui-if="user.loggedIn">You're logged in!</p>
+  <p raui-if="!user.loggedIn">Please log in.</p>
+</body>
+</html>
