@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 * Component-based HTML with `<wrayth-component>`
 * Slot support (`<template slot="...">`)
@@ -42,7 +42,7 @@ wrayth/
 ### 3. Build the site
 
 ```bash
-node wrayth-cli.js
+node wrayth.js
 ```
 
 The output will be placed in the `dist/` directory.
